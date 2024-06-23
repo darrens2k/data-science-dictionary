@@ -12,7 +12,7 @@ Generative AI has many applications in today's world. Large Language Models are 
 
 ### How does it work?
 
-In the future, the different applications of generative AI discussed above will likely receive their own separate entries in the Data Science Dictionary. Thus, this will be a high level description, and the future entries of each specific applicaitons will delve into the specifics of how they function.
+In the future, the different applications of generative AI discussed above will likely receive their own separate entries in the Data Science Dictionary. Thus, this will be a high level description, and the future entries of each specific applications will delve into the specifics of how they function.
 
 Generative AI models operate on large databases of the type of media they intend to replicate to learn its patterns. Once the patterns of existing media are learnt from the data, the models can then generate new media based on the learnt patterns.
 

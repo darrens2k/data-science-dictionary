@@ -16,9 +16,9 @@ Below, an image of the basic structure of a perceptron is shown. It consists of 
 
 ![alt text](perceptron.png "Image of a perceptron")
 
-The input to the activation function can be calculated as $x_1 * w_1 + x_2 * w_2 + x_3 * w_3 + x_4 * w_4 + bias$, which is the sum of the inputs multiplied by thier weights, added to the bias term. 
+The input to the activation function can be calculated as $x_1 * w_1 + x_2 * w_2 + x_3 * w_3 + x_4 * w_4 + bias$, which is the sum of the inputs multiplied by their weights, added to the bias term. 
 
-The activation function is responsible for introducing non-linearity and mapping the caculated value to the desired output range (usually 0 or 1 for classification). Common activation functions include the step function, sigmoid function, hyperbolic tangent function, and rectified linear unit (ReLU) function. In the future either each of these activation functions or activaation functions as a whole may receive their own entry in the data science dictionary.
+The activation function is responsible for introducing non-linearity and mapping the calculated value to the desired output range (usually 0 or 1 for classification). Common activation functions include the step function, sigmoid function, hyperbolic tangent function, and rectified linear unit (ReLU) function. In the future either each of these activation functions or activation functions as a whole may receive their own entry in the data science dictionary.
 
 It is important to note that a single perceptron can not perform any type of non-linear classification (assuming it has a simple activation function and not a non-linear one), as it could only draw a linear decision boundary. It combines the inputs in a linear matter and the activation functions output a binary answer. A classic example of this is the XOR operator, it can not be modelled by a singe perceptron due to its non-linear input to output mapping:
 
