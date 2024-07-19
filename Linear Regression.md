@@ -1,6 +1,6 @@
 # Linear Regression
 
-Credits: DATAtab, Delina Ivanova
+Credits: DATAtab, Delina Ivanova, ChatGPT
 
 ### What is it?
 
@@ -66,3 +66,9 @@ Multi-Collinearity: There can be no multi-collinearity.
 Heteroskedasticity: There can be no heteroskedasticity.
 * This occurs when the variance of the residuals are not equal. Meaning that the errors at each of the predictors have different variances. Note that the residuals are an error term ($\epsilon$ that was discussed above).
 * Ideally we would want to see that the variance of the residuals are equal for all of the predictors.
+
+Autocorrelation: Errors are correlated with each other.
+* Linear regression assumes that there is no autocorrelation and that none of the errors are related to each other.
+
+Endogeniety: Indepdendent variables are correlated with the error term.
+* Linear regression assumes that there is no endogeniety and none of the independent variables are correlated with the error term.
