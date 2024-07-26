@@ -96,4 +96,12 @@ $$
 
 Where $\hat{y}_{t+1}$ represents the un-differenced forecasted value, $y_t$ represents the un-differenced value of the time series at time t, and $\hat{y}'_{t-1}$ represents the differenced forecasted value.
 
-#### Assumptions:
+Assumptions:
+* Linearity: It is assumed that there is a linear relationship between the time series and its past values and errors.
+* Stationary: The time series must be stationary, if it is not then it must be differenced. A stationary time series is one whose statistical properties are constant in time.
+* Differencing Order: The appropriate order of differencing to make the time series stationary must be determined. Too much or too little differencing will result in a time series that is not stationary.
+* Independence of Residuals: There should be no autocorrelation amongst the errors, meaning that the errors must be independent from each other.
+* Normality of Residuals: The residuals/errors should be normally distributed with a mean of zero and constant variance. While this is not a strict requirement, normality of residuals can improve the reliability of the model’s performance.
+* Homoscedasticity: The residuals/errors should have constant variance over time. This means the spread of residuals should be roughly the same across all levels of the series.
+* No Structural Changes: The ARIMA model assumes that the time series does not have any abrupt changes in structure over time, such as sudden jumps or changes in trend, which could be caused by external factors or interventions.
+* Adequate Sample Size: The ARIMA model works best with a sufficiently large sample size to capture the underlying patterns in the time series. A small sample size may not provide enough information for the model to accurately identify the patterns and relationships.
