@@ -10,7 +10,7 @@ Linear regression is a type of regression method that can be used to solve regre
 
 ### What do we use it for?
 
-Linear regression can be used to either measure the influence of one more variables on another variable, or predict one variables using one or more other variables.
+Linear regression can be used to either measure the influence of one or more variables on another variable, or predict one variable using one or more other variables.
 
 ### How does it work?
 
@@ -20,7 +20,7 @@ We will begin by first explaining simple linear regression. Here we will refer t
 
 We will be utilizing the following equation: $\hat{y} = ax + b$. You will notice that this is the equation of a line, we are trying to fit a line through the data that minimizes the error made (error is considered to be the perpendicular distance of each point to the line).
 
-We can calculate $a$ and $b$ as such: $$a = r * (\sigma_y / \sigma_x)$$ $$b = \bar{y} - a * \bar{x}$$
+We can calculate $a$ and $b$ as such: $$a = r * (\sigma_y / \sigma_x)$$, $$b = \bar{y} - a * \bar{x}$$
 
 Note that $a$ can be thought of as representing how much the dependent variable would change if the independent variable changed by 1 unit. Whereas $b$ can be thought of to be what the dependent variable should if the independent variable is 0.
 
